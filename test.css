@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(testPics/leo.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: lower-greek;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 13px;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    font-size: 27px;
+    color: orangered;
+}
+.col {
+    flex-basis: 50%;
+}
+
+.p {
+    line-height: 15px;
+
+}
+button {
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 0;
+    background: orangered;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    transition-delay: 0.5s;
+}
+.card {
+    width: 39%;
+    height: 35%;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1 {
+    background-image: url(testPics/header.jpg);
+
+}
+.card2 {
+    background-image: url(testPics/2.jpg);
+    
+}
+.card3 {
+    background-image: url(testPics/3.jpg);
+
+}
+.card4 {
+    background-image: url(testPics/4.jpg);
+
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.h5 {
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 20px;
+}
